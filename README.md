@@ -23,7 +23,7 @@ This project is intended **solely for educational, learning, and demonstration p
 ---
 ---
 
-# 📊 AI Campaign Cost Prediction – 2023–24
+<img width="2172" height="724" alt="AI Campaign Cost Prediction – 2023–24" src="https://github.com/user-attachments/assets/2b6e436e-adb7-4644-abee-17ed770305ea" />
 
 A machine learning project to predict YouTube campaign costs using influencer metrics and video characteristics. This project involves data cleaning, feature engineering, model training, and deploying an API using FastAPI for real-time cost predictions.
 
@@ -37,8 +37,10 @@ A machine learning project to predict YouTube campaign costs using influencer me
   `MyDrive/Colab Notebooks/1. Project 1: AI CAMPAIGN COST 2023-24 PROJECT (Done)/AI Cost Data.gsheet`
 
 **Data Fetching Strategy:**  
-The dataset is hosted on Google Sheets and accessed programmatically by exporting it as a CSV file.
-Explanation: Instead of manually downloading the file, a direct link is used to fetch the data in .csv format via the Google Sheets export URL. This method ensures the data is always up-to-date and can be integrated directly into data pipelines or notebooks.
+Instead of using a downloaded CSV file with read.csv(), the dataset is fetched directly from a Google Sheets link.
+
+Explanation:
+A direct Google Sheets export URL is used to read the data. This allows the sheet to be read directly without manually downloading the file, ensuring the latest updated data is always available.
 
 ---
 
