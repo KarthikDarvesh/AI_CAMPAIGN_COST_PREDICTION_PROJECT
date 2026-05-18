@@ -204,6 +204,8 @@ In the final model testing phase, the trained **RandomForestRegressor** model wa
 #### 📤 Output:
 - Returns the **predicted `video_cost`** (in `float` format)
 
+<img width="1265" height="403" alt="image" src="https://github.com/user-attachments/assets/5685ea77-1ae8-478d-b078-6d54e99cec27" />
+
 ---
 
 ### 📁 Project Structure
