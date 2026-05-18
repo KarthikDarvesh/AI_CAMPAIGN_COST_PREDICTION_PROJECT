@@ -26,7 +26,7 @@
 
 <img width="2172" height="724" alt="AI Campaign Cost Prediction – 2023–24" src="https://github.com/user-attachments/assets/2b6e436e-adb7-4644-abee-17ed770305ea" />
 
-A machine learning project to predict YouTube campaign costs using influencer metrics and video characteristics. This project involves data cleaning, feature engineering, model training, and deploying an API using FastAPI for real-time cost predictions.
+## A machine learning project to predict YouTube campaign costs using influencer metrics and video characteristics. This project involves data cleaning, feature engineering, model training, and deploying an API using FastAPI for real-time cost predictions.
 
 ---
 
