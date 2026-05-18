@@ -1,30 +1,7 @@
-## ⚠️ Disclaimer
-
-> This repository **does NOT contain or expose any real organizational, client, or campaign data**.
->
-> The original dataset used in this project is **confidential and proprietary** and therefore **not included** in this repository due to organizational data privacy and confidentiality policies.
->
-> All **examples, workflows, diagrams, model logic, API structures, and descriptions** provided here are shared **strictly for architectural, technical, and process explanation purposes only**.
->
-> - No real business data is distributed  
-> - No sensitive or confidential information is shared  
-> - Any sample values (if present) are **synthetic or illustrative**
->
-> This project is intended **solely for educational, learning, and demonstration purposes**, to showcase:
->
-> - Machine learning workflow design  
-> - Feature engineering approaches  
-> - Model comparison strategies  
-> - API deployment architecture using FastAPI  
->
-> ❗ **This repository should not be considered a production-ready implementation** without proper data governance, security review, and validation using authorized datasets.
->
-> - Learn from this project, but don’t deploy it in production as-is.
+<img width="1942" height="809" alt="image" src="https://github.com/user-attachments/assets/c71aa673-4d55-4c6e-a1e0-aa182715e2a0" />
 
 ---
 ---
-
-<img width="2172" height="724" alt="AI Campaign Cost Prediction – 2023–24" src="https://github.com/user-attachments/assets/2b6e436e-adb7-4644-abee-17ed770305ea" />
 
 ## A machine learning project to predict YouTube campaign costs using influencer metrics and video characteristics. This project involves data cleaning, feature engineering, model training, and deploying an API using FastAPI for real-time cost predictions.
 
