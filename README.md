@@ -3,10 +3,6 @@
 ---
 ---
 
-## A machine learning project to predict YouTube campaign costs using influencer metrics and video characteristics. This project involves data cleaning, feature engineering, model training, and deploying an API using FastAPI for real-time cost predictions.
-
----
-
 ## 📁 Dataset
 
 - **Source:** Google Sheets (CSV export link)
