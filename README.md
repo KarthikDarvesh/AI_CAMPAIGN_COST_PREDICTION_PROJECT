@@ -107,28 +107,46 @@ provided good accuracy for predicting campaign costs.
 
 Several regression models were applied and evaluated using multiple error metrics to determine their effectiveness in predicting campaign costs.
 
-### 🔍 Models Tested
+### 🔍 Models Tested & Performance Comparison
 
-#### 🔹 Linear Regression
-- **Result:** Poor accuracy on test data.
+#### 📌 Linear Regression
+❌ Poor accuracy on test data  
+❌ Not suitable for accurate campaign cost prediction
 
-#### 🔹 Ensemble Models – Bagging
-- **RandomForestRegressor**
-  - Provided **stable and accurate results**
-  - Tested with both **One-Hot** and **Label Encoded** datasets
-- **ExtraTreesRegressor**
-  - Exhibited similar behavior and performance to RandomForest
+---
+#### 📌 Ensemble Models – Bagging
 
-#### 🔹 Ensemble Models – Boosting
-- **GradientBoostingRegressor**
-  - **Result:** Poor accuracy on test data
-- **XGBRegressor**
-  - Slightly **lower performance than RandomForest**, but still strong
-  - Evaluated with both encoding techniques
+**RandomForestRegressor**  
+✅ Provided stable and accurate results  
+🏆 Performed best among tested models  
+🧪 Tested on:
+- One-Hot Encoded dataset  
+- Label Encoded dataset  
 
-#### 🔹 Support Vector Regression (SVR)
-- **Result:** Poor accuracy on test data
+**ExtraTreesRegressor**  
+✅ Similar performance to RandomForestRegressor  
+✅ Stable prediction behavior  
+⚠️ No major improvement over RandomForest  
 
+---
+#### 📌 Ensemble Models – Boosting
+
+**GradientBoostingRegressor**  
+❌ Poor accuracy on test data  
+📉 Underperformed compared to bagging models  
+
+**XGBRegressor**  
+✅ Strong performance overall  
+⚠️ Slightly lower accuracy than RandomForestRegressor  
+🧪 Evaluated using:
+- One-Hot Encoding  
+- Label Encoding  
+
+---
+#### 📌 Support Vector Regression (SVR)
+❌ Poor accuracy on test data  
+❌ Not effective for this dataset  
+ 
 ---
 
 ### ✅ Best Performing Model
